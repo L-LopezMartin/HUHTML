@@ -4,31 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página de Leandro</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Página de Leandro</h1>
-    <p>Bienvenidos a la página de Leandro donde podrán encontrar información sobre mis intereses</p>
-    <h2> Intereses </h2>
-    <p> Mis intereses son varios, entre ellos incluyo:</p>
-    <ul>
-        <li>Senderismo</li>
-        <li>Programación</li>
-        <li>Lectura</li>
-        <li>Películas</li>
-    </ul>
-    <h2> Senderismo</h2>
-    <p> Arriba en mis intereses nombré el senderismo. Creo que es una actividad hermosa para disfrutar con amigos. Acá hay una foto del lago Potrerillos desde el Cerro Camello</p>
-    <img src="camellosur-1.webp">
-    <h2> Contacto </h2>
-    <p> Si quieres contactarme para ser mi amigo, te dejo un formulario:</p>
-    <form>
-        <label for="name">Nombre:</label><br>
-        <input type="text" id="name" name="name"><br>
-        <label for="email">Correo electrónico:</label><br>
-        <input type="email" id="email" name="email"><br>
-        <label for="text">Mensaje:</label><br>
-        <input type="text" id="text" name="text"><br>
-        <input type="submit" value="Enviar">
-    </form>
+    <main>
+        <header>
+            <h1>Página de Leandro</h1>
+            <p class="subtitle">Bienvenidos a la página de Leandro donde podrán encontrar información sobre mis intereses</p>
+        </header>
+        <div>
+            <h2> Intereses </h2>
+            <p> Mis intereses son varios, entre ellos incluyo:</p>
+            <ul>
+                <li>Senderismo</li>
+                <li>Programación</li>
+                <li>Lectura</li>
+                <li>Películas</li>
+            </ul>
+            <h2> Senderismo</h2>
+            <p> Arriba en mis intereses nombré el senderismo. Creo que el senderismo es una actividad hermosa, encuentro algo muy placentero en caminar por varias horas hasta llegar a vistas que son fuera de lo común en la vida cotidiana. También es una actividad muy buena para realizar con amigos: acá hay una foto del lago Potrerillos desde el Cerro Camello, que subí con 3 amigos hace unos meses.</p>
+            <img src="camellosur-1.webp">
+            <h2> Contacto </h2>
+            <p> Si quieres contactarme para ser mi amigo, te dejo un formulario:</p>
+        </div>
+        <form>
+            <label for="name">Nombre:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="text">Mensaje:</label><br>
+            <input type="text" id="text" name="text"><br>
+            <input type="submit" value="Enviar" class="submit-button">
+        </form>
+    </main>
 </body>
 </html>
