@@ -31,11 +31,14 @@ header{
     width: 100%;
 }
 
-div{
-    margin:20px;
-    display: flex;
-    flex-direction: column;
-    align-items:center;
+h1{
+    color:#09164d;
+}
+
+.subtitle{
+    width: 80vw;
+    font-size: 18px;
+    text-align: center;
 }
 
 ul{
@@ -47,18 +50,29 @@ ul{
     padding-bottom: 20px;
 }
 
-h1{
-    color:#09164d;
-}
-.subtitle{
-    width: 80vw;
+li{
+    margin-top:5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
-    text-align: center;
+}
+
+div{
+    margin:20px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
 }
 
 h2{
     color: #10288c;
     margin-top: 20px;
+}
+
+p{
+    text-align:center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width:100%;
 }
 
 img{
@@ -78,6 +92,11 @@ form{
     flex-direction: column;
 }
 
+label{
+    color:#eaf3ff;
+    font-weight: bold;
+}
+
 input{
     padding: 5px;
 }
@@ -92,24 +111,6 @@ input{
     cursor: pointer;
     margin-top: 10px;
     border-radius: 5px;
-}
-
-label{
-    color:#eaf3ff;
-    font-weight: bold;
-}
-
-p{
-    text-align:center;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    width:100%;
-}
-
-li{
-    margin-top:5px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 18px;
 }
 
 @media (max-width: 800px) {
